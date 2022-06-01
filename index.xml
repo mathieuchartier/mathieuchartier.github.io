@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jan 2022 21:16:10 -0500</lastBuildDate><atom:link href="https://mathieuchartier.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testpage</title>
+      <title>Rasterization basic</title>
       <link>https://mathieuchartier.github.io/post/testpage/</link>
       <pubDate>Sun, 30 Jan 2022 21:16:10 -0500</pubDate>
       
       <guid>https://mathieuchartier.github.io/post/testpage/</guid>
-      <description></description>
+      <description>Scan line VS half-space Scan line goes from the top of the triangle and follows the edges until the bottom vertex is reached.
+Half-space tests each pixel against the triangle edge planes. If a pixel is inside all 3 planes, it is covered by the triangle.</description>
     </item>
     
   </channel>
